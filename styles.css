@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+    .attribution {
+        font-size: 11px; 
+        text-align: center; 
+    }
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
+
+    :root{
+--Cyan: hsl(179, 62%, 43%);
+--Bright-Yellow: hsl(71, 73%, 54%);
+
+--Light-Gray: hsl(204, 43%, 93%);
+--Grayish-Blue: hsl(218, 22%, 67%);
+    }
+  
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+ul li{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+    ul{
+        list-style-type: none;
+    
+    }
+
+    body{
+        display: flex;
+        align-items: center;
+        align-content:center ;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 16px;
+        font-family: 'Karla', sans-serif;
+        background-color: var(--Cream);
+        width: 100%;
+        max-height: 100vh;
+    }
+.main-container{
+    max-width: 570px;
+    min-width: 370px;
+    height: 100vh;
+    background-color: #fff;
+    margin: 30px;
+    border-radius: 5px;
+    padding-bottom:px 
+}
+ .price, .description{
+color: hsl(204, 43%, 93%);
+display: flex;
+flex-direction: column;
+
+}
+
+.header{
+    padding: 1.5rem;
+    margin-bottom: rem;
+    box-shadow: 5px 5px 5px hsl(218, 9%, 82%);
+    border-top-left-radius: 6px;
+    border-top-right-radius:6px;
+}
+.price{
+    width: 100%;
+    height: auto;
+    background-color: hsl(179, 66%, 43%);
+    padding: 2rem;
+    
+}
+
+.price  span{
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 0.9rem;
+}
+
+h3{
+    padding-bottom: 1.5rem;
+    margin-right: 2rem;
+    padding-left: 0.9rem;
+    font-weight: 700;
+}
+
+#access{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-right: 1rem;
+    padding-left: 0.8rem;
+}
+
+#month{
+font-size: 16px;
+color: hsl(218, 9%, 82%);
+font-weight: 400;
+padding-left: 0.5rem;
+}
+
+.description{
+    width: 100%;
+    height: auto;
+    padding: 1.9rem;
+    padding-top: 3rem;
+    background-color: hsla(179, 66%, 43%, 0.763);
+    border-bottom-right-radius: 10px;
+}
+
+.description ul li{
+    line-height: 1.5rem;
+    padding-left: 1rem;
+}
+
+
+ button[type=sign] {
+        width: 95%;
+        padding: 20px 0;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: hsl(204, 43%, 93%);
+        font-weight: 700;
+        border: none;
+        border-radius: 5px;
+        background-color: hsl(71, 73%, 54%);
+        cursor: pointer;
+        margin-top: 1.9rem;
+        font-weight: 700;
+ }
+
+    /*TEXT*/
+
+    h1{
+        color: hsl(179, 66%, 43%);
+        
+    }
+
+    h2{
+        color:hsl(71, 73%, 54%);
+        margin-top: 1rem;
+    }
+
+    
+        p{
+            color: hsl(218, 22%, 67%);
+            line-height: 2rem;
+            margin-top: 1rem;
+            padding-right:1rem;
+            
+        }
+    
+
+        @media (min-width:478px) {
+            
+            .main-container{
+                max-width: 680px;
+                height: auto;
+                display: flex;
+                background-color: #fff;
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+    
+            .bottom {
+                width: 100.2%;
+                height: 50%;
+                line-height: 1.5rem;
+                display: flex;
+                color:hsl(204, 43%, 93%) ;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            
+            }
+    p{
+        margin-right: 2.5rem;
+    }
+    .header {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        margin-top: 2rem;
+        padding-left: 3rem;
+        padding-bottom: 3rem;
+        box-shadow: 5px 5px 5px hsl(218, 9%, 82%);
+        
+    }
+    
+    .price{
+        width: 50%;
+        height: auto;
+        background-color: hsl(179, 66%, 43%);
+        padding: 1.9rem;
+        padding-top: 3rem;
+        border-bottom-left-radius: 10px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+    }
+    
+    .price  span{
+        font-size: 30px;
+        font-weight: 700;
+        padding-left: 0.7rem;
+    }
+    
+    h3{
+        padding-bottom: 1.5rem;
+        padding-right: 2rem;
+    }
+    
+    #access{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    
+    #month{
+    font-size: 16px;
+    color: hsl(218, 9%, 82%);
+    font-weight: 400;
+    padding-left: 0.5rem;
+    }
+
+    
+    .description{
+        width: 50%;
+        height: 100%;
+        padding: 1.9rem;
+        padding-top: 3rem;
+        background-color: hsla(179, 66%, 43%, 0.763);
+        border-bottom-right-radius: 10px;
+    }
+    
+    button[type=sign] {
+        width: 85%;
+        padding: 20px 0;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: hsl(204, 43%, 93%);
+        font-weight: 700;
+        border: none;
+        border-radius: 5px;
+        background-color: hsl(71, 73%, 54%);
+        cursor: pointer;
+        margin-top: 1.9rem;
+        font-weight: 700;
+ }
+
+
+        }
+
+       
